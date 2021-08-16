@@ -92,4 +92,7 @@ def chose(address,file="LOG.txt"):
 if __name__ == '__main__': 
     os.system("clear" or "cls")
     print(banner)
-    chose(IPAddr)
+    if os.geteuid() != 0:
+        exit("\033[91m \033[1m  You need to have root privileges to run this script. \033[0m  \nPlease try again, this time using 'sudo'. Exiting. ")
+    else:
+        chose(IPAddr)
