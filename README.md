@@ -24,5 +24,7 @@ scprit tested on termux mac os
   </span>
 
 <small>created by afacode </small>
+
 contact : fsoftcode@gmail.com
+
 channell youtube :  https://www.youtube.com/channel/UCnctS_zskh6aZ9zeK1-i-Cg
