@@ -1,8 +1,8 @@
 #!/usr/bin/env python3  
 """ 
-Copyright 2020 , 2021 AFacode
+Copyright 2020-2021 AFacode
 Auther  uri : http://afacode.com
-Auther Email : afa.code@gmail.com
+Auther Email : fsoftcode@gmail.com
 file: honeypot.py
 Demo code.  No warranty of any kind.  Use at your own risk
 """
@@ -25,7 +25,7 @@ banner = """
         \033[93m     usage : python3 honeypot.py  \033[0m 
         \033[94m        url auther afacode.com     \n  \033[0m 
 """
-VERSION = '0.1a'
+VERSION = '0.1'
 welcome = b"Ubuntu 18.04.1 LTS\nserver login: \nubuntu >> "
 hostname = socket.gethostname()    
 IPAddr = socket.gethostbyname(hostname) 
